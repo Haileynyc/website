@@ -1,0 +1,5 @@
+Intro to Informatics
+Elements of Computers/Programming
+Elements of Software Design
+Elementary Statistical Methods
+Differential and Integral Calculus

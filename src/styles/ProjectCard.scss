@@ -1,0 +1,31 @@
+@import 'global.scss';
+
+.project-image {
+    width: 26vw;
+    height: auto;
+}
+.project-title {
+    font-family: 'Arapey', serif;
+    color: $dark-red;
+    font-weight: 400;
+    font-style: normal;
+    font-size: calc(2vw + 20px);
+    text-align: center;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 26vw;
+    flex-grow: 1;
+    // height: 7vw;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+}
+

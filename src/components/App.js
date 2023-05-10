@@ -1,16 +1,18 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-
+import Logo from './Logo';
 import CustomNavbar from './CustomNavbar';
 import ProjectPage from './ProjectPage';
 import Home from './Home';
+import NoPage from './NoPage';
 function App() {
   return (
     <Router>
-
-      <CustomNavbar />
+        <CustomNavbar />
+        <Logo />
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path ="/projects/:projectId" element={ProjectPage} />
+        <Route path ="projects/:projectId" element={<ProjectPage/>} />
+        <Route path="/" element={<Home/>}/>
+        <Route path="*" element={<NoPage/>} /> 
       </Routes>
     </Router>
   );

@@ -2,3 +2,45 @@
 body {
     background-color: $light-pink;
 }
+.home-text {
+    font-family: 'Arapey', serif;
+    color: $dark-red;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.about {
+    background-color: white;
+    width: 50vw;
+    font-size: calc(1vw + 20px);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    line-height: 1.2;
+    display: inline-block;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.title {
+    color: black;
+    font-family: 'Antic Didone', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: calc(2vw + 20px);
+    margin-top: 6vw;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3vw;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+

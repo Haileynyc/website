@@ -1,0 +1,2 @@
+Rank My Ranch
+My partner and I created a website called “Rank My Ranch”, a humorous program that allowed people to vote on their favorite ranches from different restaurants. The design was made using Figma. 

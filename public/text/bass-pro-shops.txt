@@ -1,0 +1,2 @@
+Bass Pro Shops Item Page
+This project was design for the UX/UI design competition held by the UX club at the University of Texas at Austin. The competition was sponsored by Bass Pro Shops and prompted students to design an item page for their website for consumers to analyze products to purchase. This was designed using Figma. 

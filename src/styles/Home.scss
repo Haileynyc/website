@@ -2,6 +2,7 @@
 body {
   background-color: $light-pink;
 }
+
 .home-text {
   font-family: "Arapey", serif;
   color: $dark-red;
@@ -9,16 +10,29 @@ body {
   font-style: normal;
 }
 
-.about {
+.card {
   background-color: white;
-  width: 50vw;
   font-size: calc(1vw + 20px);
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
   line-height: 1.2;
   display: inline-block;
+  padding: 3vw;
+  list-style-type: none;
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    li::before {
+      content: "> ";
+    }
+  }
+  
+}
+
+.about {
   padding-top: 3vw;
   padding-bottom: 3vw;
+  width: 50vw;
 }
 
 .title {
@@ -26,7 +40,7 @@ body {
   font-family: "Antic Didone", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: calc(2vw + 20px);
+  font-size: calc(3vw + 20px);
   margin-top: 6vw;
   text-align: center;
   margin-bottom: 2vw;
@@ -42,4 +56,88 @@ body {
   margin-bottom: 6vw;
   padding-left: 200px;
   padding-right: 200px;
+}
+
+.experience-img {
+  border-radius: calc(1vw + 20px);
+}
+
+.section-card {
+  background-color: $dark-red;
+  width: 25vw;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 1vw;
+  padding: 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vw;
+}
+
+.section-card-text {
+  font-family: 'Square Peg', cursive;
+  color: white;
+  font-size: calc(2.5vw + 30px);
+  text-align: center;
+  margin-bottom: -0.5vw;
+}
+
+.clubs {
+  margin-top: 15vw;
+}
+
+.clubs-card {
+  width: 49vw;
+  margin-top: 5vw;
+}
+
+.exp-card {
+  width: 42vw;
+}
+
+
+
+.list-card {
+  width: 49vw;
+  margin-top: 5vw;
+}
+
+.experience-text {
+  font-family: 'Arapey', serif;
+  color: $dark-red;
+  font-weight: 400;
+  font-style: normal;
+  font-size: calc(0.5vw + 10px);
+  li {
+    width: 30vw;
+  }
+}
+
+
+.experience-header{
+  font-family: 'Antic Didone', serif;
+  color: black;
+  font-weight: 400;
+  font-style: normal;
+  font-size: calc(0.9vw + 20px);
+
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  // width: 30vw;
+  
+  margin-left: 33vw;
+}
+
+.experience-right-header {
+  font-size: calc(0.5vw + 10px);
+}
+
+.work-experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

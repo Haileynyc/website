@@ -1,0 +1,2 @@
+SecondThought
+For the spring 2023 Hackathon, at UT Austin, my partner and I created a Google Chrome extension called “Second Thought”. This extension was made for Amazon shoppers to be aware of the consequences of their consumerism in a fun, convenient way. The design was made using Figma. <link>https://chrome.google.com/webstore/detail/second-thought/imfeoaocdcmccegadijopefhapoogojl?hl=en&authuser=0<link><linktext>Check it out on the Google store!</linktext>

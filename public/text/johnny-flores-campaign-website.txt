@@ -1,2 +1,2 @@
 Johnny Flores Campaign Website
-My client, Johnny Flores, needed a campaign website in his race for Hays County ISD School Board Trustee. I designed his website using Adobe Illustrator. Check it out at Johnnyforschoolboard.com!
+My client, Johnny Flores, needed a campaign website in his race for Hays County ISD School Board Trustee. I designed his website using Adobe Illustrator. Check it out at <link>https://www.johnnyforschoolboard.com<link><linktext>johnnyforschoolboard.com!</linktext>

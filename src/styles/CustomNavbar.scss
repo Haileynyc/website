@@ -5,10 +5,17 @@
   font-family: "Antic Didone", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: calc(1vw + 20px);
+  font-size: calc(2vw);
   color: $dark-red;
   // cursor: pointer;
 }
+
+@media (max-width: 991px) {
+  .navlink {
+    font-size: calc(1.5vw + 10px);
+  }
+}
+
 .custom-nav {
   width: 100%;
   justify-content: space-between;

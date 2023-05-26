@@ -146,7 +146,7 @@ const Home = () => {
       <div className="flex flex-row justify-content-center gap-5 align-items-center">
         <TextCard className="about">{text["about"]}</TextCard>
 
-        <Image src="/img/portrait.png" className="ms-5"></Image>
+        <Image src="/img/portrait.png" className="portrait-img"></Image>
       </div>
       <Section title="Projects - click for more info" id="projects" />
       <div className="projects">
